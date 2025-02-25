@@ -1,0 +1,49 @@
+# Create a style.css file with:
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Container */
+.stApp {
+    background-color: #f5f5f5;
+}
+
+/* Headers */
+h1 {
+    color: #2c3e50 !important;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem !important;
+}
+
+/* Buttons */
+.stButton>button {
+    background-color: #3498db !important;
+    color: white !important;
+    border-radius: 25px;
+    padding: 0.5rem 2rem;
+    transition: all 0.3s ease;
+}
+
+.stButton>button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(52, 152, 219, 0.4);
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] {
+    background-color: #2c3e50 !important;
+    color: white !important;
+}
+
+/* Form Elements */
+.stSelectbox, .stNumberInput, .stSlider {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
