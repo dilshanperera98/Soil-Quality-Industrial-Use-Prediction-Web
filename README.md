@@ -1,18 +1,17 @@
-✅ Use the App
-Navigate through different pages using the sidebar.
-Enter soil parameters and click "Predict" to see results.
+# 🌱 Soil Quality & Land Use Predictor
 
-✅ Prepare Model Files
-The code expects four pickle files containing the machine learning models:
+A user-friendly **Streamlit** application to predict **Soil Quality** and its suitability for **Industrial Use**, based on input soil parameters. This tool uses pre-trained machine learning models to provide insights for both general and laterite group (LG) soil types.
 
-rf_soil_quality_model.pkl
-rf_industrial_use_model.pkl
-rf_soil_quality_model_LG.pkl
-rf_industrial_use_model_LG.pkl
+---
 
-✅ Install Required Libraries
-pip install streamlit pandas scikit-learn
+## ✅ Features
 
-✅ Run the Streamlit App
-streamlit run soil_quality_predictor.py
+- 🔍 Predict Soil Quality based on physical and chemical parameters.
+- 🏭 Assess whether the soil is suitable for Industrial Use.
+- 📊 Support for two model categories: General and Laterite Group (LG).
+- 🧭 Easy navigation through an intuitive sidebar interface.
+
+---
+
+
 
